@@ -1,6 +1,5 @@
 .DS_Store
 .venv
 digest
-config.json
 __pycache__
 .vscode

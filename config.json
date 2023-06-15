@@ -1,0 +1,16 @@
+{
+    "contracts": {
+        "0xdDE5dC81e40799750B92079723Da2acAF9e1C6D6": "LendingPoolAddressesProvider",
+        "0x872B9e8aea5D65Fbf29b8B05bfA4AA3fE94cC11f": "LendingPoolAddressesProviderRegistry",
+        "0x72fad09e3da8cec0e975bf253c1e5eafdb927fec": "LendingPool",
+        "0x025D9d36C616946530Ff8eA32d912aBf73170947": "LendingPoolCollateralManager",
+        "0x5a89ec095e6466379dcad8b60059a95977e14fee": "LendingPoolConfigurator",
+        "0x158B0B1414F153e58F8aCAC50E777FEEC234Dd9D": "LendingRateOracle",
+        "0x9aEeFef549323511E027D70562f0C7EdcDEB294C": "AaveOracle",
+        "0x9546F673eF71Ff666ae66d01Fd6E7C6Dae5a9995": "AaveProtocolDataProvider",
+        "0x6e20E155819f0ee08d1291b0b9889b0e011b8224": "WETHGateway"
+    },
+    "network": "optimistic",
+    "github_repo": "https://github.com/The-Granary/Granary-Protocol-v1/tree/bab30a81ebd7e23422e1ae9b5f6b62654cbcf693",
+    "dependencies": {}
+}

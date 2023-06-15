@@ -13,8 +13,8 @@ def get_file_from_github(github_api_token, dependency_repo, filepath, dep_name):
         f"https://api.github.com/repos/{user_slash_repo}/contents/{path_to_file}"
     )
 
-    if ref:
-        github_api_url += "?ref=" + ref
+    # if ref:
+    #     github_api_url += "?ref=" + ref
 
     github_data = fetch(
         github_api_url, headers={"Authorization": f"token {github_api_token}"}

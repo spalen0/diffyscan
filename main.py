@@ -63,9 +63,13 @@ def run_diff(config, name, address, etherscan_api_token, github_api_token):
 
         if not repo:
             logger.error("File not found", filename)
-            sys.exit()
+            # sys.exit()
+            continue
 
         github_file = get_file_from_github(github_api_token, repo, filepath, dep_name)
+        if not github_file:
+            logger.warn("File not found", filename)
+            continue
 
         github_lines = github_file.splitlines()
         etherscan_lines = source_code["content"].splitlines()

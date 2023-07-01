@@ -1,5 +1,4 @@
 import base64
-import re
 from utils.common import fetch, parse_repo_link
 from utils.constants import CONTRACTS_DIR
 from utils.logger import logger
@@ -13,12 +12,14 @@ def get_file_from_github(github_api_token, dependency_repo, filepath, dep_name):
         f"https://api.github.com/repos/{user_slash_repo}/contents/{path_to_file}"
     )
 
-    # if ref:
-    #     github_api_url += "?ref=" + ref
+    if ref:
+        github_api_url += "?ref=" + ref
 
     github_data = fetch(
         github_api_url, headers={"Authorization": f"token {github_api_token}"}
     )
+    if not github_data:
+        return None
 
     file_content = github_data.get("content")
 

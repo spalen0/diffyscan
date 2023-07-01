@@ -42,7 +42,8 @@ def fetch(url, headers={}):
         logger.error("Request failed", url)
         logger.error("Status", response.status_code)
         logger.error("Response", response.text)
-        sys.exit()
+        # sys.exit()
+        return None
 
     return response.json()
 

@@ -9,6 +9,8 @@ def get_contract_from_etherscan(token, network, contract):
     etherscan_api_subdomain = "" if network == "mainnet" else f"-{network}"
     if network == "avalanche":
         etherscan_link = f"https://api.snowtrace.io/api?module=contract&action=getsourcecode&address={contract}&apikey={token}"
+    if network == "polygon":
+        etherscan_link = f"https://api.polygonscan.com/api?module=contract&action=getsourcecode&address={contract}&apikey={token}"
     else:
         etherscan_link = f"https://api{etherscan_api_subdomain}.etherscan.io/api?module=contract&action=getsourcecode&address={contract}&apikey={token}"
 

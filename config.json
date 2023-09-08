@@ -1,16 +1,15 @@
 {
     "contracts": {
-        "0xb6A86025F0FE1862B372cb0ca18CE3EDe02A318f": "LendingPoolAddressesProvider",
-        "0x4235E22d9C3f28DCDA82b58276cb6370B01265C2": "LendingPoolAddressesProviderRegistry",
-        "0x01ae7DDA024eA9712344D9332c94d3168a91f342": "LendingPool",
-        "0xa9c1bb836752a2Dfb3694ca084D8ffBB07768771": "LendingPoolCollateralManager",
-        "0xc7938af7ec68c3d5ac3a396e28661b3e366b8fcf": "LendingPoolConfigurator",
-        "0xc34254642B504484465F38Cb1CC396d45a9c7c80": "LendingRateOracle",
-        "0xdC336Cd4769f4cC7E9d726DA53e6d3fC710cEB89": "AaveOracle",
-        "0x65285E9dfab318f57051ab2b139ccCf232945451": "AaveProtocolDataProvider",
-        "0xC27d4dBefc2C0CE57916a699971b58a3BD9C7d5b": "WETHGateway"
+        "0x2313DAe6bCeB3074c441BA76dcDFf55c6EC8A3b0": "Pearl",
+        "0x2c3b0fE309098018B9C340919e2Fd39cdA55Aa66": "VotingEscrow",
+        "0xD57173e0eDf701f4964e824040aD77e020790504": "RewardsDistributor",
+        "0x0afAa3501861Fa72F6b4FECfA6F6Bdab7BEE6b9D": "Pair",
+        "0xE6164B41e1Ab777DC8f74011E4076C74CcEe0f40": "PairFactory",
+        "0x17d9332bF5CB855FBc3aa1275a50621e5ef113a8": "BribeFactory",
+        "0x0D2181185cF6804E4F532211a1befc1b6589b353": "Voter",
+        "0x74BD6e86aD58EFbf0Af310db8eF2bF793021e884": "Minter"
     },
-    "network": "avalanche",
-    "github_repo": "https://github.com/The-Granary/Granary-Protocol-v1/tree/bab30a81ebd7e23422e1ae9b5f6b62654cbcf693",
+    "network": "polygon",
+    "github_repo": "https://github.com/Pearl-Finance/pearl-contracts/tree/7736c4631d23fd516a8aee90dfdb0ecb356e72bb",
     "dependencies": {}
 }

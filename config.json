@@ -10,6 +10,6 @@
         "0x74BD6e86aD58EFbf0Af310db8eF2bF793021e884": "Minter"
     },
     "network": "polygon",
-    "github_repo": "https://github.com/Pearl-Finance/pearl-contracts/tree/7736c4631d23fd516a8aee90dfdb0ecb356e72bb",
+    "github_repo": "https://github.com/Pearl-Finance/pearl-contracts/tree/fac7a43545c0244c210c0e86248ed4f8208e8c59",
     "dependencies": {}
 }
